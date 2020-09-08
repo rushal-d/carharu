@@ -1,0 +1,259 @@
+img{
+	max-width: 100%;
+}
+
+section{
+    padding-top: 50px;
+	padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto 50px;
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+}
+
+.bgcover{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.btn{
+	transition-duration: 0.8s;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background-color: transparent;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    background-color: transparent;
+}
+
+button:focus{
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev span:hover,
+.owl-carousel .owl-nav button.owl-next span:hover{
+    background-color:  #ff0000;
+}
+
+
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span
+{
+    height: 50px;
+    width: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 40px !important;
+    display: block;
+    line-height: 40px;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+
+    left: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    right: 50px;
+}
+
+.section-title{
+    position: relative;
+}
+
+.section-title h3:after{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    background-color: #ff0000;
+    height: 2px;
+    width: 50px;
+}
+
+.box:hover{
+    box-shadow: 5px 4px 19px 12px #F5F5F5;
+}
+
+.box .logo{
+    height: 80%;
+}
+
+.box .model-details{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*---BANNER---*/
+
+.banner{
+    padding-top: 0px;
+    height: 100vh;
+    position: relative;
+}
+
+.banner .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -webkit-transform: translateY(-50%);
+    color: #fff3cd;
+    z-index: 3;
+}
+
+.banner .banner-text p{
+    width: 50%;
+}
+
+.banner .item:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+
+/*----BRANDS----*/
+
+.brands .brand-box{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.brands .brand-box .logo{
+    height: 100px;
+}
+
+/*----MODELS----*/
+
+
+/*----UPCOMING----*/
+
+
+/*----CARD----*/
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0.15rem;
+}
+
+.tab-card {
+    border:1px solid #eee;
+}
+
+.tab-card-header {
+    background:none;
+}
+/* Default mode */
+.tab-card-header > .nav-tabs {
+    border: none;
+    margin: 0px;
+}
+.tab-card-header > .nav-tabs > li {
+    margin-right: 2px;
+}
+.tab-card-header > .nav-tabs > li > a {
+    border: 0;
+    border-bottom:2px solid transparent;
+    margin-right: 0;
+    color: #737373;
+    padding: 2px 15px;
+}
+
+.tab-card-header > .nav-tabs > li > a.show {
+    border-bottom:2px solid #007bff;
+    color: #007bff;
+}
+.tab-card-header > .nav-tabs > li > a:hover {
+    color: #007bff;
+}
+
+.tab-card-header > .tab-content {
+    padding-bottom: 0;
+}
+
+
+/*-----BRAND PAGE-----*/
+.brand-detail .brand-name h3
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #606f7b;
+}
+
+.brand-detail{
+    background-color: #f8f9fa;
+}
+
+.listofmodels{
+    padding-top: 0px;
+    background-color: #f8f9fa;
+}
+
+.listofmodels .model-details
+{
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #f8f9fa;
+}
+
+.listofmodels .other-brands{
+    background-color: #ffffff;
+    padding: 5px 0 0 5px;
+}
+
+.listofmodels .list{
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.listofmodels .model-specs .btn{
+    border: 2px solid #3000FF;
+    color: #3000FF;
+}
+
+.model-detail .model-name h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #606f7b;
+}
+
+.model-features{
+    padding-top: 0px;
+}
+
+.model-features .model{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.detailed-specs h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #606f7b;
+}
